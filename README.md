@@ -11,6 +11,33 @@ ACDCï¼šhttps://drive.google.com/drive/folders/1KQcrci7aKsYZi1hQoZ3T3QUtcy7b--n4ï
 ## 2. Environment
 
 - We recommend an evironment with python >= 3.8, and then install the following dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+
+
+## 3. Train/Test
+
+- Run the train script on synapse dataset. The batch size we used is 24.
+- train
+ 
+```bash
+python train.py --cfg configs/WDANet_base.yaml
+```
+
+- test
+ 
+```bash
+python test.py --cfg configs/WDANet_base.yaml
+```
+
+## References
+- [TransUNet](https://github.com/Beckschen/TransUNet)  
+- [SwinUNet](https://github.com/HuCaoFighting/Swin-Unet)
+
+
+  
+
 
