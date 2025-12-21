@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## 3.weights
 
-Put [pretrained weights]([https://github.com/Beckschen/TransUNet](https://huggingface.co/zxx00/Training_weight))  into folder "pretrained_ckpt/" under the main "WDANet" directory
+Put -[pretrained weights]([https://github.com/Beckschen/TransUNet](https://huggingface.co/zxx00/Training_weight))  into folder "pretrained_ckpt/" under the main "WDANet" directory
 
 
 ## 4. Train/Test
