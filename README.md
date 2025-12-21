@@ -10,3 +10,7 @@ ACDCï¼šhttps://drive.google.com/drive/folders/1KQcrci7aKsYZi1hQoZ3T3QUtcy7b--n4ï
 
 ## 2. Environment
 
+- We recommend an evironment with python >= 3.8, and then install the following dependencies:
+```bash
+pip install -r requirements.txt
+
