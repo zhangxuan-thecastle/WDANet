@@ -16,21 +16,24 @@ ACDCï¼šhttps://drive.google.com/drive/folders/1KQcrci7aKsYZi1hQoZ3T3QUtcy7b--n4ï
 pip install -r requirements.txt
 ```
 
+## 3.weights
+
+Put [pretrained weights]([https://github.com/Beckschen/TransUNet](https://huggingface.co/zxx00/Training_weight))  into folder "pretrained_ckpt/" under the main "WDANet" directory
 
 
-## 3. Train/Test
+## 4. Train/Test
 
 - Run the train script on synapse dataset. The batch size we used is 24.
 - train
  
 ```bash
-python train.py --cfg configs/WDANet_base.yaml
+python train.py 
 ```
 
 - test
  
 ```bash
-python test.py --cfg configs/WDANet_base.yaml
+python test.py 
 ```
 
 ## References
